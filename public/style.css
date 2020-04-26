@@ -1,0 +1,41 @@
+#header{
+    display:flex;
+    justify-content:center;
+}
+#pageContainer{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+#tableHeaderContainer{
+    border: 1px solid gray;
+    margin:0px 200px 0px;
+    padding:0px;
+}
+#tableContainer{
+    height:300px;
+    max-height:300px;
+    overflow-y: scroll;
+    border: 1px solid gray;
+    margin:0px 200px 0px ;
+    padding:0px;
+}
+#tableFooterContainer{
+    margin:0px 20px 0px;
+    padding:0px;
+    display:flex;
+    justify-content:center;
+    height:100px;
+}
+td{
+    color:black;
+    text-decoration: none;
+}
+.selected{
+    background-color:lightgray;
+}
+#pageNumber{
+    padding:10px 20px;
+    margin:20px;
+    border-radius: 100px;
+}
